@@ -5,20 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice Project</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="todo-list.js"></script>
 </head>
 <body>
     <main>
         <h1>To-Do List</h1>
 
-        <p>
-            Select each item as you finish it!
-        </p>
+        <input type="text" id="myInput" placeholder="Type here...">
+        <span onclick="newElement()" class="addBtn">Add</span>
 
-        <ul>
-            <li><input type="checkbox"> Item 1</li>
-            <li><input type="checkbox"> Item 2</li>
-            <li><input type="checkbox"> Item 3</li>
+        <ul id="myUL">
+            <li><input type="checkbox">Example 1</li>
+            <li>Example 2</li>
+            <li>Example 3</li>
+            <li>Example 4</li>
+            <li>Example 5</li>
         </ul>
+
+
 
     </main>
     
