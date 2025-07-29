@@ -1,0 +1,16 @@
+body{
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+h1{
+    text-align: center;
+    background-color: aqua;
+    color: blue;
+}
+
+ul{
+    list-style-type: none;
+    text-align:justify;
+    font-size: 1.5rem;
+}
